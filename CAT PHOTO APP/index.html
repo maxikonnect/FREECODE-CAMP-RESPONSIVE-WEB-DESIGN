@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LEARN HTML BY BUILDING A CAT PHOTO APP</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="general.css">
+    </head>
+    <body>
+        <div id="container">
+            <main>
+                <h1>CatPhotoApp</h1>
+                <section>
+                    <h2>Cat Photos</h2>
+                    <p>
+                        See more 
+                        <a href="https://freecatphotoapp.com" target="_blank">
+                            cat photos
+                        </a>
+                         in our gallery.
+                    </p>
+                    <figure>
+                        <img class="relaxing-cat" src="Assets/images/relaxing-cat.jpg" alt="Relaxing Cat">
+                        <figcaption>
+                            <strong>Relaxing Cat</strong>
+                        </figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <h2>Cat Lists</h2>
+                    <h3>Things cats love:</h3>
+                    <ul>
+                        <li>cat nip</li>
+                        <li>laser pointers</li>
+                        <li>lasagna</li>
+                    </ul>
+                    <figure>
+                        <img src="Assets/images/lasagna.jpg" alt="lasagna">
+                        <figcaption>Cats <em>love</em> Lasagna</figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <h3>Top 3 things cats hate:</h3>
+                    <ul>
+                        <li>flea treatment</li>
+                        <li>thunder</li>
+                        <li>other cats</li>
+                    </ul>
+                    <figure>
+                        <img src="Assets/images/cats.jpg" alt="cats">
+                        <figcaption>Cats hate other cats</figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <form action="#" method="#">
+                        <h2>Cat Form</h2>
+                        <fieldset>
+                            <legend>Is your cat an indoor or outdoor cat?</legend>
+                            <label for="indoor">
+                                <input checked type="radio" id="indoor" name="indoor-outdoor">
+                                Indoor
+                            </label>
+                            <label for="outdoor">
+                                <input  type="radio" id="outdoor" name="indoor-outdoor">
+                                Outdoor
+                            </label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Is your cat an indoor or outdoor cat?</legend>
+                            <label for="loving">
+                                <input checked type="checkbox" id="loving" name="personality">
+                                Loving
+                            </label>
+                            <label for="lazy">
+                                <input type="checkbox" id="lazy" name="personality">
+                                Lazy
+                            </label>
+                            <label for="energetic">
+                                <input type="checkbox" id="energetic" name="personality">
+                                Energetic
+                            </label>
+                            
+                        </fieldset>
+                        <div class="send">
+                            <input type="text" name="catphoto" placeholder="cat photo URL">
+                            <input type="submit" value="Submit"id="submit" class="submit-btn">
+                        </div>
+                        
+                    </form>
+                </section>
+            </main>
+            <footer>
+                <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+            </footer>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

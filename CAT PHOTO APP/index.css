@@ -1,0 +1,100 @@
+#container{
+    max-width: 600px;
+    min-width: 400px;
+    width: 60vw;
+    margin: 20px auto;
+    background-color: var(--div1-color);
+    border-radius: 10px;
+}
+
+h1, h2,h3, p, li, figcaption{
+    text-align: center;
+}
+section{
+    margin-top: 30px;
+}
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+
+p, li, label, input, legend{
+    font-size: 1.4rem;
+}
+img{
+    display: block;
+    margin: 10px auto 2px auto;
+    width: 60%;
+}
+
+fieldset, .send{
+    border: none;
+    
+    width: 50%;
+    margin: 20px auto;
+    
+}
+input[type="text" ], 
+input[type="submit"]{
+    padding: 8px 12px;
+    border-radius: 10px;
+    margin-right: 5px;
+
+}
+
+ul li{
+    list-style: none;
+    font-style: italic;
+}
+
+figcaption{
+    font-size: 1.4rem;
+}
+
+
+/*Footer */
+footer{
+    padding-bottom:20px; 
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+  
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: underline;
+  } 
+  
+
+  
+@media (min-width: 200px) {
+    input[type="text" ]{
+        margin-bottom: 15px;
+    }
+}
