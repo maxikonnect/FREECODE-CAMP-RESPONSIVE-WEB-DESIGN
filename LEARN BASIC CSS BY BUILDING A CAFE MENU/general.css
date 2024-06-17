@@ -1,0 +1,21 @@
+:root{
+    --div-color1: burlywood;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+::before,
+::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("Assets/images/background-image.jpg");
+    padding: 50px;
+    font-family: sans-serif, Arial, Helvetica;
+}
